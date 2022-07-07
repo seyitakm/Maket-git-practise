@@ -9,6 +9,7 @@ body {
 /* =====================SEYIT================= */
 .footer_color {
   background-color: #1e2b4b;
+  margin-top: 3%;
 }
 .footer_title {
   color: white;
@@ -82,3 +83,73 @@ body {
 .d-flex {
   margin-right: 30px;
 }
+/* УЛАН */
+.section3 {
+  background-color: #1c233d;
+}
+
+.section3__nft {
+  display: flex;
+  color: #b469d8;
+  justify-content: center;
+}
+
+.section3__yours {
+  color: white;
+}
+
+.section3__yours {
+  display: flex;
+  justify-content: center;
+}
+.section3__yours h2 {
+  margin-top: 4%;
+}
+
+.section3__cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+  justify-content: space-around;
+}
+.cardcolor {
+  background-color: #30384d;
+}
+
+.card-body {
+  background-color: #30384d;
+}
+
+.section3__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+.btn-color {
+  background: linear-gradient(
+    85.76deg,
+    rgba(191, 196, 238, 0.0945738) -105.02%,
+    #c367e6 10.94%,
+    rgba(190, 206, 239, 0) 121.57%
+  );
+  border-radius: 5px;
+  border: 0;
+  margin-left: 600px;
+}
+
+.btn-color2 {
+  background: linear-gradient(
+    85.76deg,
+    rgba(191, 196, 238, 0.0945738) -105.02%,
+    #e5e5ee 10.94%,
+    rgba(190, 206, 239, 0) 121.57%
+  );
+  border-radius: 5px;
+  margin-right: 600px;
+}
+
+.section3__buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* УЛАН */
