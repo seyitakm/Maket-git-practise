@@ -1,3 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Space Grotesk";
+}
+body {
+  background-color: #1c233d;
+}
+/* =====================SEYIT================= */
+.footer_color {
+  background-color: #1e2b4b;
+  margin-top: 3%;
+}
+.footer_title {
+  color: white;
+}
+.footer_text {
+  color: white;
+}
+.footer_btn {
+  background: linear-gradient(
+    85.76deg,
+    rgba(191, 196, 238, 0.0945738) -105.02%,
+    #c367e6 10.94%,
+    rgba(190, 206, 239, 0) 121.57%
+  );
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+.container_footer1 {
+  background-color: #1e2b4b;
+}
+/* =====================SEYIT================= */
+.headcolor {
+  background-color: #1c233d;
+}
+.navbar-brand {
+  color: #fef9f9;
+  margin-left: 30px;
+}
+
+.nav-link {
+  color: #e5e5e5;
+}
+.navcolor {
+  color: #e5e5e5;
+}
+
+.navcolor2 {
+  color: hsl(0, 0%, 90%);
+  margin-left: 25px;
+  background: linear-gradient(
+    85.76deg,
+    #b469d8 -105.02%,
+    #be68e2 -25.38%,
+    #c367e6 10.94%,
+    rgba(190, 206, 239, 0) 121.57%
+  );
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-link {
+  color: #e5e5e5;
+}
+
+.nav-link:hover {
+  color: #c367e6;
+}
+.navbar-brand:hover {
+  color: #c367e6;
+}
+
+/*  */
+#navbarSupportedContent {
+  margin-left: 60px;
+}
+
+/* поисковик(search) */
+.d-flex {
+  margin-right: 30px;
+}
+
+/* УЛАН */
+.section3 {
+  background-color: #1c233d;
+  margin-top: 3%;
+}
+
+.section3__nft {
+  display: flex;
+  color: #b469d8;
+  justify-content: center;
+}
+
+.section3__yours {
+  color: white;
+}
+
+.section3__yours {
+  display: flex;
+  justify-content: center;
+}
+.section3__yours h2 {
+  margin-top: 4%;
+}
+
+.section3__cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+  justify-content: space-around;
+}
+.cardcolor {
+  background-color: #30384d;
+}
+
+.card-body {
+  background-color: #30384d;
+}
+
+.section3__buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+.btn-color {
+  background: linear-gradient(
+    85.76deg,
+    rgba(191, 196, 238, 0.0945738) -105.02%,
+    #c367e6 10.94%,
+    rgba(190, 206, 239, 0) 121.57%
+  );
+  border-radius: 5px;
+  border: 0;
+  margin-left: 600px;
+}
+
+.btn-color2 {
+  background: linear-gradient(
+    85.76deg,
+    rgba(191, 196, 238, 0.0945738) -105.02%,
+    #e5e5ee 10.94%,
+    rgba(190, 206, 239, 0) 121.57%
+  );
+  border-radius: 5px;
+  margin-right: 600px;
+}
+
+.section3__buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* УЛАН */
+/* Sanjar */
 .nft {
   color: #9c76b8;
 }
@@ -16,7 +171,6 @@
 .hot1 {
   display: flex;
   justify-content: center;
-  /* margin-left: 30px; */
 }
 
 .knopka {
@@ -24,6 +178,7 @@
   justify-content: center;
   justify-content: space-around;
   margin-top: 3%;
+  border-radius: none;
 }
 
 .kartinka {
@@ -43,14 +198,8 @@
   background-color: #30384d;
 }
 
-.card-body {
+.card-body__s {
   display: flex;
-
-  /* flex-direction: column; */
-}
-.icons {
-  padding-left: 110px;
-  padding-bottom: 45px;
 }
 
 .cardcolor2 {
@@ -74,6 +223,10 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
+}
+.icons {
+  padding-left: 110px;
+  padding-bottom: 45px;
 }
 
 .icons1 {
@@ -108,7 +261,7 @@
   justify-content: space-evenly;
 }
 
-.btn-color {
+.btn-color__s {
   background-color: #3d2a3d;
   border: none;
 }
