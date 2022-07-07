@@ -28,3 +28,56 @@ body {
 .container_footer1 {
   background-color: #1e2b4b;
 }
+
+.headcolor {
+  background-color: #1c233d;
+}
+.navbar-brand {
+  color: #fef9f9;
+  margin-left: 30px;
+}
+
+.nav-link {
+  color: #e5e5e5;
+}
+.navcolor {
+  color: #e5e5e5;
+}
+
+.navcolor2 {
+  color: hsl(0, 0%, 90%);
+  margin-left: 25px;
+}
+
+.nav-link {
+  color: #e5e5e5;
+}
+
+.btn {
+  background: linear-gradient(
+    85.76deg,
+    #b469d8 -105.02%,
+    #be68e2 -25.38%,
+    #c367e6 10.94%,
+    rgba(190, 206, 239, 0) 121.57%
+  );
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-link:hover {
+  color: #c367e6;
+}
+.navbar-brand:hover {
+  color: #c367e6;
+}
+
+/*  */
+#navbarSupportedContent {
+  margin-left: 60px;
+}
+
+/* поисковик(search) */
+.d-flex {
+  margin-right: 30px;
+}
