@@ -88,8 +88,8 @@ HEAD
 .section5 {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 50px;
-  margin-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .title1 {
   color: #ffffff;
@@ -102,7 +102,7 @@ HEAD
 
 .paragraph1 {
   color: #ffffff;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .nums {
@@ -320,6 +320,44 @@ HEAD
 
 @media all and (max-width: 900px) {
   .pngeshka {
-    width: 30px;
+    display: none;
+  }
+  .paragraph1 {
+    text-align: center;
+  }
+  .buton1 {
+    margin-left: 200px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .pngeshka {
+    display: none;
+  }
+}
+
+@media all and (max-width: 540px) {
+  .icons_beks {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 490px) {
+  .res {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+  }
+  .buton1 {
+    margin-left: 200px;
+  }
+
+  .title1 {
+    width: 100vw;
+  }
+
+  .paragraph1 {
+    width: 100vw;
   }
 }
