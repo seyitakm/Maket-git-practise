@@ -91,6 +91,12 @@ HEAD
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.pngeshka:hover {
+  transform: translateY(-50px);
+}
+.pngeshka {
+  transition: 2.5s;
+}
 .title1 {
   color: #ffffff;
   font-family: "Space Grotesk";
@@ -157,12 +163,17 @@ HEAD
   margin-top: 4%;
 }
 
+.section3__cards:hover {
+  transform: translateY(-30px);
+}
 .section3__cards {
   display: flex;
   justify-content: center;
   margin-top: 6%;
   justify-content: space-around;
+  transition: 1s;
 }
+
 .cardcolor {
   background-color: #30384d;
 }
@@ -189,13 +200,9 @@ HEAD
 }
 
 .btn-color2 {
-  background: linear-gradient(
-    85.76deg,
-    rgba(191, 196, 238, 0.0945738) -105.02%,
-    #e5e5ee 10.94%,
-    rgba(190, 206, 239, 0) 121.57%
-  );
+  background-color: #1c233d;
   border-radius: 5px;
+  border-color: #ffffff;
   margin-right: 600px;
 }
 
@@ -246,29 +253,62 @@ HEAD
   justify-content: space-around;
   margin-top: 5%;
 }
+.cardcolor1:hover {
+  background-color: #30384d;
+  transform: translateY(-30px);
+}
+
 .cardcolor1 {
   background-color: #30384d;
+  transition: 0.8s;
 }
 
 .card-body__s {
   display: flex;
 }
 
+.cardcolor2:hover {
+  transform: translateY(-30px);
+}
+
 .cardcolor2 {
   background-color: #30384d;
+  transition: 0.8s;
+}
+
+.cardcolor3:hover {
+  transform: translateY(-30px);
 }
 
 .cardcolor3 {
   background-color: #30384d;
+  transition: 0.8s;
 }
+
+.cardcolor4:hover {
+  transform: translateY(-15px);
+}
+
 .cardcolor4 {
   background-color: #30384d;
+  transition: 0.8s;
 }
+.cardcolor5:hover {
+  transform: translateY(-15px);
+}
+
 .cardcolor5 {
   background-color: #30384d;
+  transition: 0.8s;
 }
+
+.cardcolor6:hover {
+  transform: translateY(-15px);
+}
+
 .cardcolor6 {
   background-color: #30384d;
+  transition: 0.8s;
 }
 
 .knopka2 {
@@ -344,11 +384,6 @@ HEAD
 }
 
 @media all and (max-width: 490px) {
-  .res {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
-  }
   .buton1 {
     margin-left: 200px;
   }
@@ -360,4 +395,8 @@ HEAD
   .paragraph1 {
     width: 100vw;
   }
+}
+
+.elem-4_icon {
+  transition: transform 400ms;
 }
