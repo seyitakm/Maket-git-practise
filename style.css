@@ -30,7 +30,12 @@ body {
 .container_footer1 {
   background-color: #1e2b4b;
 }
+HEAD
+
 /* =====================SEYIT================= */
+
+/* CSS Бексултан
+ /* f280920d6571c750d339a995ac1b24910aef5438 */ */
 .headcolor {
   background-color: #1c233d;
 }
@@ -71,7 +76,6 @@ body {
   color: #c367e6;
 }
 
-/*  */
 #navbarSupportedContent {
   margin-left: 60px;
 }
@@ -81,6 +85,54 @@ body {
   margin-right: 30px;
 }
 
+.section5 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.title1 {
+  color: #ffffff;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 77px;
+}
+
+.paragraph1 {
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.nums {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  margin-top: 70px;
+
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+}
+.people {
+  color: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+
+.icons_beks {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+/* CSS Бексултан End*/
 /* УЛАН */
 .section3 {
   background-color: #1c233d;
@@ -264,4 +316,10 @@ body {
 .btn-color__s {
   background-color: #3d2a3d;
   border: none;
+}
+
+@media all and (max-width: 900px) {
+  .pngeshka {
+    width: 30px;
+  }
 }
